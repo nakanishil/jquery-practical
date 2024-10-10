@@ -11,10 +11,8 @@ $(function() {
   // ボタンクリックで文字がフェードアウト
   $('#fade-out').on('click', function() {
     $('#target').fadeOut();
-    $('#target').css('color', 'red');
   });
   $('#fade-in').on('click', function() {
     $('#target').fadeIn();
-    $('#target').css('color', 'red');
   });
 });
